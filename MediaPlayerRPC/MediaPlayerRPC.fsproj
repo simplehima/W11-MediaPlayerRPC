@@ -17,10 +17,10 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Avalonia.Desktop" Version="11.0.4" />
-        <PackageReference Include="Avalonia.FuncUI.Elmish" Version="1.0.1" />
-        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.4" />
-        <PackageReference Include="Avalonia.FuncUI" Version="1.0.1" />
+        <PackageReference Include="Avalonia.Desktop" Version="11.0.9" />
+        <PackageReference Include="Avalonia.FuncUI.Elmish" Version="1.2.0" />
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.9" />
+        <PackageReference Include="Avalonia.FuncUI" Version="1.2.0" />
         <PackageReference Include="DiscordRichPresence" Version="1.2.1.24" />
         <PackageReference Include="FSharp.Data.Json" Version="1.0.0" />
         <PackageReference Include="FSharp.Data.JsonPath" Version="1.0.1" />
@@ -32,6 +32,10 @@
 
     <ItemGroup>
         <AvaloniaResource Include="Assets\*" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="FSharp.Core" Version="8.0.200" />
     </ItemGroup>
     
 </Project>
